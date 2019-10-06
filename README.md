@@ -1,6 +1,9 @@
 # ProcessBar
-
-Example:
+### Install
+```bash
+go get github.com/tianyazc/ProcessBar
+```
+### Example:
 ```golang
 package main
 
@@ -29,4 +32,12 @@ func main() {
 		time.Sleep(time.Second/10)
 	}
 }
+// out
+☁  ProcessBar [master] ⚡  go run *.go
+测试bar1
+[==========]    100 %
+测试bar2
+[>>>>>>>>>>]    100 %
+测试bar3
+[◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆]  100 %
 ```
