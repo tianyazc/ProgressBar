@@ -1,7 +1,7 @@
-# ProcessBar
+# ProgressBar
 ### Install
 ```bash
-go get github.com/tianyazc/ProcessBar
+go get github.com/tianyazc/ProgressBar
 ```
 ### Example:
 ```golang
@@ -10,11 +10,11 @@ package main
 import 
 (
 "time"
-"github.com/tianyazc/ProcessBar"
+"github.com/tianyazc/ProgressBar"
 )
 
 func main() {
-	Pb := ProcessBar.NewPb()
+	Pb := ProgressBar.NewPb()
 	Pb.Bar("测试bar1","=",10)
 	for i:=0;i<=10;i++ {
 		Pb.Complete()
@@ -33,7 +33,7 @@ func main() {
 	}
 }
 // out
-☁  ProcessBar [master] ⚡  go run *.go
+☁  ProgressBar [master] ⚡  go run *.go
 测试bar1
 [==========]    100 %
 测试bar2
