@@ -1,4 +1,4 @@
-module github.com/tianyazc/ProcessBar
+module github.com/tianyazc/ProgressBar
 
 go 1.13
 
